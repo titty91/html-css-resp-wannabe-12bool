@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+[class*="col-"] {
+    float: left;
+}
+
 .container{
   max-width: 1170px;
   margin: 0 auto;
@@ -133,12 +137,12 @@
  /* colonne xs cellulare */
 @media all and (max-width: 767px){
 
-   .col-xs-1{
-     width: calc((100%/12)*1);
-   }
+  .col-xs-1{
+    width: calc((100%/12)*1);
+  }
 
-   .col-xs-2{
-     width: calc((100%/12)*2);
+  .col-xs-2{
+    width: calc((100%/12)*2);
    }
 
    .col-xs-3{
@@ -187,8 +191,8 @@
    /* colonne md tabled */
 @media all and (min-width: 768px) and (max-width: 991px){
 
-     .col-md-1{
-       width: calc((100%/12)*1);
+    .col-md-1{
+     width: calc((100%/12)*1);
      }
 
      .col-md-2{

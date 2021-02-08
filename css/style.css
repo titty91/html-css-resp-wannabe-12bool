@@ -21,7 +21,6 @@ body{
 }
 
 .row {
-
   margin-left: auto;
   margin-right: auto;
 }
@@ -67,8 +66,9 @@ img{
   padding: 30px;
 }
 
-.clear {
-  clear: both;
+.fondo{
+  background-color: lightgrey;
+
 }
 
 [class*="col-"] {
