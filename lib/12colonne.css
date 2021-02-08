@@ -9,7 +9,7 @@
   margin: 0 auto;
 }
 
-.container::after{
+.row::after{
   content: "";
   display: table;
   clear: both;
@@ -134,109 +134,109 @@
  @media all and (max-width: 767px){
 
    .col-xs-1{
-     width: calc(100%/12);
+     width: calc((100%/12)*1);
    }
 
    .col-xs-2{
-     width: calc(100%/12);
+     width: calc((100%/12)*2);
    }
 
    .col-xs-3{
-     width: calc(100%/12);
+     width: calc((100%/12)*3);
    }
 
    .col-xs-4{
-     width: calc(100%/12);
+     width: calc((100%/12)*4);
    }
 
    .col-xs-5{
-     width: calc(100%/12);
+     width: calc((100%/12)*5);
    }
 
    .col-xs-6{
-     width: calc(100%/12);
+     width: calc((100%/12)*6);
    }
 
    .col-xs-7{
-     width: calc(100%/12);
+     width: calc((100%/12)*7);
    }
 
    .col-xs-8{
-     width: calc(100%/12);
+     width: calc((100%/12)*8);
    }
 
    .col-xs-9{
-     width: calc(100%/12);
+     width: calc((100%/12)*9);
    }
 
    .col-xs-10{
-     width: calc(100%/12);
+     width: calc((100%/12)*10);
    }
 
    .col-xs-11{
-     width: calc(100%/12);
+     width: calc((100%/12)*11);
    }
 
    .col-xs-12{
-     width: calc(100%/12);
+     width: calc((100%/12)*12);
    }
 
    /* colonne md tabled */
-   @media all and (minx-width: 768px) and (max-width: 991px){
+   @media all and (min-width: 768px) and (max-width: 991px){
 
      .col-md-1{
-       width: calc(100%/12);
+       width: calc((100%/12)*1);
      }
 
      .col-md-2{
-       width: calc(100%/12);
+       width: calc((100%/12)*2);
      }
 
      .col-md-3{
-       width: calc(100%/12);
+       width: calc((100%/12)*3);
      }
 
      .col-md-4{
-       width: calc(100%/12);
+       width: calc((100%/12)*4);
      }
 
      .col-md-5{
-       width: calc(100%/12);
+       width: calc((100%/12)*5);
      }
 
      .col-md-6{
-       width: calc(100%/12);
+       width: calc((100%/12)*6);
      }
 
      .col-md-7{
-       width: calc(100%/12);
+       width: calc((100%/12)*7);
      }
 
      .col-md-8{
-       width: calc(100%/12);
+       width: calc((100%/12)*8);
      }
 
      .col-md-9{
-       width: calc(100%/12);
+       width: calc((100%/12)*9);
      }
 
      .col-md-10{
-       width: calc(100%/12);
+       width: calc((100%/12)*10);
      }
 
      .col-md-11{
-       width: calc(100%/12);
+       width: calc((100%/12)*11);
      }
 
      .col-md-12{
-       width: calc(100%/12);
+       width: calc((100%/12)*12);
      }
 
    }
 
 
    /* colonne lg pc */
-   @media all and (minx-width: 768px) and (min-width: 992px){
+   @media all and (min-width: 992px){
 
      .col-lg-1{
        width: calc(100%/12);
