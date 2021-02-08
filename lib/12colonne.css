@@ -131,7 +131,7 @@
 
 
  /* colonne xs cellulare */
- @media all and (max-width: 767px){
+@media all and (max-width: 767px){
 
    .col-xs-1{
      width: calc((100%/12)*1);
@@ -181,8 +181,11 @@
      width: calc((100%/12)*12);
    }
 
+ }
+
+
    /* colonne md tabled */
-   @media all and (min-width: 768px) and (max-width: 991px){
+@media all and (min-width: 768px) and (max-width: 991px){
 
      .col-md-1{
        width: calc((100%/12)*1);
@@ -236,7 +239,7 @@
 
 
    /* colonne lg pc */
-   @media all and (min-width: 992px){
+@media all and (min-width: 992px){
 
      .col-lg-1{
        width: calc((100%/12)*1);
@@ -286,4 +289,4 @@
        width: calc((100%/12)*11);
      }
 
-   }
+  }
